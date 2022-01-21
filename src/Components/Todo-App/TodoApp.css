@@ -1,0 +1,52 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.mainDiv {
+  width: 35%;
+  height: 100%;
+  border: 1px solid black;
+  margin: 70px auto;
+  padding: 20px 15px;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 7px 7px 10px black;
+}
+
+input {
+  margin: 30px 5px;
+  width: 80%;
+  padding: 11px;
+  outline: none;
+  font-size: 1em;
+  border-radius: 10px;
+  border: 0.1em solid rgb(48, 43, 99);
+}
+
+h1 {
+  text-align: center;
+  color: rgb(48, 43, 99);
+}
+
+ul li {
+  padding: 20px;
+  margin-top: 15px;
+  /* border-radius: 8px; */
+  border-bottom: 2px solid rgb(48, 43, 99);
+  font-size: 1.1em;
+  font-weight: 500;
+}
+.fa-plus-circle {
+  font-size: 2.3em;
+  color: green;
+  cursor: pointer;
+  position: relative;
+  top: 9px;
+  left: 5px;
+  /* margin-top: 50px; */
+}
+.fa-trash-alt {
+  color: red;
+  font-size: 1.8em;
+  cursor: pointer;
+}
