@@ -5,7 +5,7 @@ function TodoApp() {
   const [todoArray, setTodoArray] = useState([]);
 
   const handleChange = (event) => {
-    // console.log(event.target.value);
+    
     setTodoValue(event.target.value);
   };
 
